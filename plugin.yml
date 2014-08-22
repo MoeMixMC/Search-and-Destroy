@@ -1,0 +1,51 @@
+name: MineFuse
+main: minefuse.MineFuse
+version: 1.0
+authors: [BuzzyOG, MoeMix]
+depend: [Vault]
+commands:
+  help:
+     description: Use This For Help
+     usage: /help
+  report:
+     description: Use This To Report A Griefer
+     usage: /report
+  stats:
+     description: Use This To View Your or His - Win/Lose, Kills or Deaths
+     usage: /stats
+  arena:
+     description: Displays Arena Setup Menu
+     usage: /arena
+  t:
+     description: Team Chat Command
+     usage: /t
+  team:
+     description: Team Chat Command
+     usage: /team
+  g:
+     description: Global Chat Command
+     usage: /g
+  global:
+     description: Global Chat Command
+     usage: /global
+  menu:
+     description: Purchase Menu Command
+     usage: /menu
+  join:
+     description: Join Game Session Command
+     usage: /join
+  leave:
+     description: Leave Game Session Command
+     usage: /leave
+  createarena:
+    description: Create arena. Takes 1 argument.
+  setspawn:
+    description: Set a spawn. 
+  setexit:
+    description: Sets the exit location.
+  setbombsite1:
+    description: Sets the first bomb site.
+  setbombsite2:
+    description: Sets the second bomb site. duh.
+  teststart:
+    description: dev command.
