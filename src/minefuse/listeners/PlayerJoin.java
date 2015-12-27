@@ -1,6 +1,7 @@
 package minefuse.listeners;
 
 import java.util.ArrayList;
+import java.io.File;
 
 import minefuse.Arena;
 import minefuse.ArenaManager;
